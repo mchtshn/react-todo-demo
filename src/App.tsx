@@ -23,12 +23,12 @@ function App() {
     }else{
       rowNumber = 1;
     }
-      const newTodo = {
-        rowNumber : rowNumber,
-        rowDescription : description,
-        rowAssigned : assigned
-      };
-      setTodos(todos => [...todos,newTodo])
+    const newTodo = {
+      rowNumber : rowNumber,
+      rowDescription : description,
+      rowAssigned : assigned
+    };
+    setTodos(todos => [...todos,newTodo])
     
   }  
 

@@ -22,7 +22,7 @@ function NewTodoForm(props){
                 </div>
                 <div className='mb-3'>
                     <label className='form-label'> Description</label>
-                    <textarea type='text' className='form-control' rows={3} required onChange={e => setDescription(e.target.value)} value ={description}></textarea>
+                    <textarea className='form-control' rows={3} required onChange={e => setDescription(e.target.value)} value ={description}></textarea>
                 </div>
                 <button type ='button' className='btn btn-primary mt-3' onClick={submitTodo}>Add Todo</button>
             </form>
